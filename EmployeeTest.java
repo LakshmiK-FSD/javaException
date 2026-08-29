@@ -1,27 +1,13 @@
 import java.util.Scanner;
 class Employee {
-    int employeeId;
-    String employeeName;
-    static String companyName = "FITA Academy";
-
-    Employee(int employeeId) {
-        this.employeeId = employeeId;
-    }
-
-    Employee(String employeeName) {
-        this.employeeName = employeeName;
-    }
-
+    int
     void display() {
         System.out.println("--------------------------------------------------------------------------------");
         System.out.println("Employee Detailes");
         System.out.println("--------------------------------------------------------------------------------");
         System.out.println("Employee ID   : " + employeeId);
     }
-
-    void secondDisplay() {
-        System.out.println("Company Name  : " + companyName);
-        System.out.println("Employee Name : " + employeeName);
++ employeeName);
     }
 }
 
